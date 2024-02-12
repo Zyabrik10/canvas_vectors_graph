@@ -34,7 +34,7 @@ const settings = {
   kRange,
   cRange,
   cellSize,
-  play: false,
+  play: true,
   xSize,
   ySize,
 };
