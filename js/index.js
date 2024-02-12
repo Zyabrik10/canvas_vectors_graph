@@ -46,8 +46,8 @@ gui.add(settings, "lineWidth", 0.1, 1).step(0.01);
 gui.add(settings, "k", -kRange, kRange).step(kIn);
 gui.add(settings, "speed", -kIn * 100, kIn * 100).step(kIn / 100);
 gui.add(settings, "cellSize", 10, 35);
-gui.add(settings, "xSize", 1, 100);
-gui.add(settings, "ySize", 1, 100);
+gui.add(settings, "xSize", -200, 200);
+gui.add(settings, "ySize", -200, 200);
 gui.add(settings, "play").onChange((value) => {
   return !value;
 });
